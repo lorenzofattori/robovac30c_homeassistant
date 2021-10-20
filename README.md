@@ -11,6 +11,7 @@ How to:
 - Go to your home assistant folder and create a "custom_components" folder
 - Install the following component into it https://github.com/mitchellrj/eufy_robovac
 - NOTE! Rename the folder eufy_robovac in "eufy_vacuum"
+- NOTE2! In order to make it work with newer versions of HomeAssistant,  you have to create a manifest.json file as described in https://github.com/mitchellrj/eufy_robovac/issues/29
 - download this version of the eufy app on an android device: https://www.dropbox.com/s/bcwy6iqchydgexc/EufyHome_2.4.0_vevs.apk.zip?dl=0 (I don't know who is the owner and if the app is legit, found it here https://www.reddit.com/r/homebridge/comments/hda5td/easy_way_to_obtain_localkeydevid_for_eufy_vacuums/)
 - Select your robot and select settings, devive id and license key are there.
 
