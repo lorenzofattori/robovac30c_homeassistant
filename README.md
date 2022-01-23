@@ -17,6 +17,7 @@ How to:
 
 - Edit the configuration.yaml as following:
 
+```yaml
 eufy_vacuum:
   devices:
   - name: Robovac
@@ -24,5 +25,6 @@ eufy_vacuum:
     access_token: 
     id: 
     type: T2118
+```
 
 - restart home assistant and you are good to go!
