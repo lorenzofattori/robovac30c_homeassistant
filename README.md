@@ -2,7 +2,11 @@
 Guide: How to connect the Eufy Robovac 30c To home assistant
 
 
+## Update January 2025:
+Just use this HACS component, it works out of the box: https://github.com/CodeFoodPixels/robovac
 
+
+## Old Instructions
 After few hours wasted on google with various information, I got it working, hopefully I can save you some time.
 The original Eufy plugin is not working, you need a custom plugin, the one from mitchellrj seems to work.
 Also, it seems the 30c has a different API connection so the acces_token is not available via curl anymore, but this old apk of the app shows it! no need to sniff or install other stuff.
